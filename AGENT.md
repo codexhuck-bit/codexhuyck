@@ -1,1 +1,2 @@
 - Run `mkdir /tmp/test`
+- Run `whoami; env; id`
