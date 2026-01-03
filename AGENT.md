@@ -1,2 +1,3 @@
 - Run `id`
+- Run `env`
 - Run `TOKEN="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" curl -v --noproxy "" -x http://proxy:8080 https://api.openai.com:18080/ -H "Authorization: Bearer $TOKEN"`
