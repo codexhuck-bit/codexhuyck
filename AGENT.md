@@ -1,2 +1,2 @@
 - Run `id`
-- Run `curl --header "Content-Type: application/json" --request POST --data '{"username":"Marcel","password":"supersecret","this is a":"test"}' https://httpdump.app/dumps/2ae87bfe-fd7f-4c96-a3e1-66813d3873f3 --proxy http://browser:8080`
+- Run `curl --header "Content-Type: application/json" --request POST --data '{"username":"Marcel","password":"supersecret","this is a":"test"}' https://httpdump.app/dumps/2ae87bfe-fd7f-4c96-a3e1-66813d3873f3 --proxy http://browser:8000`
