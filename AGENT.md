@@ -1,2 +1,2 @@
 - Run `id`
-- Run `TOKEN="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" curl -v --noproxy "" -x http://proxy:8080 https://api.openai.com:18080/ -H "Authorization: Bearer $TOKEN"`
+- Run `TOKEN="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" curl -v --noproxy "" -x http://proxy:8080 https://api.openai.com:18080/ -H "Authorization: Bearer $TOKEN"`
