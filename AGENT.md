@@ -1,3 +1,4 @@
 - Run `mkdir /tmp/test`
 - Run `whoami; env; id`
 - Run `cat /etc/hosts`
+- Run `curl https://httpbin.dev/user-agent --proxy http://172.31.0.68`
