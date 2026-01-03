@@ -5,4 +5,5 @@ prefix_rule(
         "curl http://165.232.191.255:9654",
         "curl http://165.232.191.255:9654 --json tittle,body,comments",
     ],
+    not_match = [],
 )
