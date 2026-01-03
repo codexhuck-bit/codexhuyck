@@ -1,9 +1,8 @@
 prefix_rule(
-    pattern = ["curl", "http://165.232.191.255:9654"],
+    pattern = ["curl", "http://165.232.191.255:9654", "view"],
     decision = "allow",
     match = [
-        "curl http://165.232.191.255:9654",
-        "curl http://165.232.191.255:9654 --json tittle,body,comments",
+        "curl http://165.232.191.255:9654 view",
+        "curl http://165.232.191.255:9654 view --json tittle,body,comments",
     ],
-    not_match = [],
 )
